@@ -4,8 +4,7 @@
  *           author: Vy Nguyen
  *           last-modified: Oct 04 2012
  *
- * This 'implements' the pushdown automaton described here:
- * http://www.cs.umb.edu/~vngu0510/images/state_diagram.gif
+ * This 'implements' the pushdown automaton described in sate_diagram.gif
  *
  */
 
@@ -64,7 +63,6 @@ int is_accepted(Stack* input)
 
           kill(getpid());
           return ret; 
-          // ret; >>> WHY IS IT STILL executed? should've been killed!
         case -1: // failed to fork
           printf("\nFailed to fork\n");
           break;
@@ -104,6 +102,10 @@ int main(void)
   printf("\nRET = %d\n", ret);
 
   printf("\nEND\n");
+
+  // free input stack
+  free_stack(input);
+
   return 0;
 }
 
