@@ -1,6 +1,6 @@
 /**
  *      author: Vy Thao Nguyen
- *      This program find all palindrome substrings of a given string
+ *      This program finds all palindrome substrings of a given string
  *
  */
 #include <stdio.h>
