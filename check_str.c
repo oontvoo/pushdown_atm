@@ -4,7 +4,8 @@
  *           author: Vy Nguyen
  *           last-modified: Oct 04 2012
  *
- * This 'implements' the pushdown automaton described in sate_diagram.gif
+ * This 'implements' the pushdown automaton described in
+ * https://github.com/oontvoo/pushdown_atm/blob/master/state_diagram.gif
  *
  */
 
